@@ -188,8 +188,13 @@ public class MainActivity extends AppCompatActivity {
                 res2.setText(service.nb1 + service.operator + service.nb2);
                 break;
             case "/":
-                result = service.nb1 / service.nb2;
-                res2.setText(service.nb1 + service.operator + service.nb2);
+                if(service.nb1 == 0 || service.nb2 == 0){
+                    initAction();
+                }
+                else{
+                    result = service.nb1 / service.nb2;
+                    res2.setText(service.nb1 + service.operator + service.nb2);
+                }
                 break;
         }
         res.setText(String.valueOf(result));
