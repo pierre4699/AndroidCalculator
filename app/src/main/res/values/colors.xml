@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004085</color>
+    <color name="colorPrimaryLight">#0FBEA3</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="red">#C21616</color>
+    <color name="redPROMEO">#E2051B</color>
+    <color name="bluePROMEO">#005677</color>
+    <color name="lightbluePROMEO">#0DA3DD</color>
+</resources>
